@@ -1,0 +1,13 @@
+rasta:
+  jms:
+    username: JMS Username
+    password: makeitsecure
+    url: SomeUrl
+--- # this is a file separator for yaml
+spring:
+  profiles: de
+rasta:
+  jms:
+    username: JMS GERMAN Username
+    password: JMS GERMAN password
+    url: JMS GERMAN URL
